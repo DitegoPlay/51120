@@ -1,124 +1,112 @@
-// Generated from c://Users//Diego Torres//Desktop//SINTAXIS//Diego//ssl-antlr-calculator//Calculator.g4 by ANTLR 4.13.1
+// Generated from c://Users//Diego Torres//Desktop//SINTAXIS//Diego//ssl-antlr-calculator//SimpleLang.g4 by ANTLR 4.13.1
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link CalculatorListener},
+ * This class provides an empty implementation of {@link SimpleLangListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
 @SuppressWarnings("CheckReturnValue")
-public class CalculatorBaseListener implements CalculatorListener {
+public class SimpleLangBaseListener implements SimpleLangListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterProg(CalculatorParser.ProgContext ctx) { }
+	@Override public void enterPrograma(SimpleLangParser.ProgramaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitProg(CalculatorParser.ProgContext ctx) { }
+	@Override public void exitPrograma(SimpleLangParser.ProgramaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterPrintExpr(CalculatorParser.PrintExprContext ctx) { }
+	@Override public void enterInstrucciones(SimpleLangParser.InstruccionesContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitPrintExpr(CalculatorParser.PrintExprContext ctx) { }
+	@Override public void exitInstrucciones(SimpleLangParser.InstruccionesContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAssign(CalculatorParser.AssignContext ctx) { }
+	@Override public void enterInstruccion(SimpleLangParser.InstruccionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAssign(CalculatorParser.AssignContext ctx) { }
+	@Override public void exitInstruccion(SimpleLangParser.InstruccionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterBlank(CalculatorParser.BlankContext ctx) { }
+	@Override public void enterBucle(SimpleLangParser.BucleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitBlank(CalculatorParser.BlankContext ctx) { }
+	@Override public void exitBucle(SimpleLangParser.BucleContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterParens(CalculatorParser.ParensContext ctx) { }
+	@Override public void enterSentencia(SimpleLangParser.SentenciaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitParens(CalculatorParser.ParensContext ctx) { }
+	@Override public void exitSentencia(SimpleLangParser.SentenciaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterMulDiv(CalculatorParser.MulDivContext ctx) { }
+	@Override public void enterSalida(SimpleLangParser.SalidaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitMulDiv(CalculatorParser.MulDivContext ctx) { }
+	@Override public void exitSalida(SimpleLangParser.SalidaContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterAddSub(CalculatorParser.AddSubContext ctx) { }
+	@Override public void enterTerminar(SimpleLangParser.TerminarContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitAddSub(CalculatorParser.AddSubContext ctx) { }
+	@Override public void exitTerminar(SimpleLangParser.TerminarContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterId(CalculatorParser.IdContext ctx) { }
+	@Override public void enterCondicion(SimpleLangParser.CondicionContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitId(CalculatorParser.IdContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterInt(CalculatorParser.IntContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitInt(CalculatorParser.IntContext ctx) { }
+	@Override public void exitCondicion(SimpleLangParser.CondicionContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
