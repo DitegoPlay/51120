@@ -1,0 +1,4 @@
+do {
+  puts("entrada valida 2");
+  break;
+} while (2);

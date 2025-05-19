@@ -1,0 +1,5 @@
+do {
+  puts("Hola mundo");
+  puts("Adiós mundo");
+  break;
+} while (0);

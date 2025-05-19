@@ -1,0 +1,8 @@
+do 
+  puts("faltan las llave");
+  break;
+while (0);
+
+En eesta entrada, el error es sintáctico. A pesar de que todos los tokens son válidos, la estructura del programa no cumple la sintaxis esperada por la gramática. 
+Mi gramática define que el 'do' siempre debe ir seguido de un bloque encerrado entre llaves ({ ... }), pero en este ejemplo falta la llave de apertura y de cierre.
+Por eso, aunque el lexer sí reconoce los tokens y se crea el arbol de derivacion indicando en rojo cuales son los elementos que faltan y en el cmd muestra la tabla de tokens y lexemas y tira un error de sintaxis. 
