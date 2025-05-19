@@ -1,0 +1,52 @@
+Tarea: Construcción de un Analizador con ANTLR4 y JavaScript
+Tema: 39568_10
+Se proporciona a continuación una gramática en notación ANSI-C que describe una porción reducida y adaptada del lenguaje C.
+
+programa: instrucciones ;
+instrucciones: 
+    instrucción
+    | instrucciones instrucción
+    ;
+instruccion: bucle;
+bucle:
+    "do" "{" sentencia "}" "while" "(" condicion ")" ";"
+    ;
+sentencia:
+    salida
+    | salida sentencia
+    | terminar
+    ;
+salida:
+    "puts" "(" cadena ")" ";"
+    ;
+terminar:
+    "break" ";"
+    ;
+condicion:
+    "0"
+    | "1"
+    ;
+cadena:
+    "\"" caracteres "\""
+    ;
+caracteres:
+    carácter
+    | caracteres carácter
+    ;
+carácter:
+    letra
+    | dígito
+    | símbolo
+    ;
+letra:
+    "a" ... "z"
+    | "A" ... "Z"
+    ;
+dígito:
+    "0" ... "9"
+    ;
+símbolo:
+    "," | "." | "!" | "?" | ";" | ":"
+    ;
+
+Utilizando ANTLR4 con JavaScript, implemente un analizador que procese un archivo de entrada (input.txt) con código fuente escrito en este sub-lenguaje de C.
