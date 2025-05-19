@@ -1,7 +1,7 @@
 do {
   puts("Falta cierre"
   break;
-} while (0);
+} while (2);
 
 Yo puse puts("Falta cierre" pero nunca cerré la comilla doble ni el paréntesis de cierre.
 Entonces el parser no puede reconocer bien la instrucción puts(...) porque la producción espera algo como puts(CADENA), y acá la cadena está incompleta.
